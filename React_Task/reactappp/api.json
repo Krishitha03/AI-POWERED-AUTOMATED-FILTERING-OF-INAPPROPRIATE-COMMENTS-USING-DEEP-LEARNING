@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "title": "Intro to Python",
+      "description": "Learn Python basics in this beginner-friendly workshop.",
+      "date": "2025-03-15",
+      "location": "Community Center Room A"
+    },
+    {
+      "id": 2,
+      "title": "Digital Painting Basics",
+      "description": "Discover digital painting techniques using Procreate.",
+      "date": "2025-03-18",
+      "location": "Art Studio"
+    },
+    {
+      "id": 3,
+      "title": "Gourmet Cooking",
+      "description": "Cook delicious gourmet meals with expert chefs.",
+      "date": "2025-03-20",
+      "location": "Downtown Kitchen"
+    },
+    {
+      "id": 4,
+      "title": "Web Development Bootcamp",
+      "description": "Build modern websites using HTML, CSS, and JavaScript.",
+      "date": "2025-03-22",
+      "location": "Tech Hub Room 3"
+    },
+    {
+      "id": 5,
+      "title": "Photography Essentials",
+      "description": "Master the art of photography with hands-on practice.",
+      "date": "2025-03-25",
+      "location": "City Park Pavilion"
+    },
+    {
+      "id": 6,
+      "title": "AI & Machine Learning",
+      "description": "Explore AI concepts and build simple machine learning models.",
+      "date": "2025-03-28",
+      "location": "Innovation Lab"
+    }
+]
