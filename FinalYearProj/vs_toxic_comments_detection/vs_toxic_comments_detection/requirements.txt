@@ -1,0 +1,6 @@
+flask
+plotly
+pandas
+google-api-python-client
+numpy
+tensorflow==2.15.0

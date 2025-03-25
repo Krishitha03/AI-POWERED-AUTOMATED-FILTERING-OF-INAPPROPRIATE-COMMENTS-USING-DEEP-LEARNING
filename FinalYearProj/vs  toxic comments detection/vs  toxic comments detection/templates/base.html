@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AI-Powered Automated Filtering of Inappropriate Comments Using Deep Learning</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- <link rel="stylesheet" href="../static/style.css"> -->
+    <style>
+        /* Define the animation */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* Apply animation to <a> tags */
+        a {
+            animation: fadeIn 1s ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <h1>AI-Powered Automated Filtering of Inappropriate Comments Using Deep Learning</h1>
+    </nav>
+    <div class="container">
+        <div id="Index">
+                <h2>To Check Toxicity On Input Text</h2>
+                <a href="{{ url_for('index') }}">Click Here</a>
+        </div>
+        <div id="YT">
+                <h2>To List The Inappropriate Comments in YouTube video</h2>
+                <a href="{{ url_for('YT') }}">Click Here</a>
+        </div>
+    </div>
+</body>
+
+</html>

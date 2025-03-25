@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: rgb(33, 33, 173);
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Center container elements */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px; /* Add space between boxes */
+    margin-top: 7%;
+    margin-left: 15%;
+    margin-right:15%;
+}
+
+/* Styling for #Index and #YT boxes */
+#Index, #YT {
+    background-color: darkblue;
+    color: white;
+    width: 500px;
+    height: 350px; /* Ensuring equal height */
+    padding: 40px;
+    text-align: center;
+    border: 10px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Ensure text inside the boxes is centered properly */
+#Index h2, #YT h2 {
+    margin-bottom: 20px;
+}
+
+/* Styling for links inside the boxes */
+a {
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Styling for input fields */
+.input-text {
+    padding: 20px;
+    margin: 3% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.input-text h1 {
+    margin-bottom: 30px;
+}
+
+.input-text textarea {
+    background: transparent;
+    border: 2px solid black;
+    padding: 5px;
+    width: 75%;
+    font-size: 20px;
+    resize: none;
+    border-radius: 5px;
+    margin-left: 13%;
+    margin-top: 5%;
+}
+
+.input-text input, button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.input-text input{
+    margin-left: 73%;
+}
+
+.input-text input:hover, button:hover {
+    background: rgb(50, 50, 50);
+}
+
+.result {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Styling for video ID field */
+#videoId {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Table Styling */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #dddddd;
+}
+
