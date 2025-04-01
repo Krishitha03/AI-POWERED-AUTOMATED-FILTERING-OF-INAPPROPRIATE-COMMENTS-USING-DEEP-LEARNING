@@ -28,7 +28,7 @@ vectorizer.adapt(X.values)
 
 api_service_name = "youtube"
 api_version = "v3"
-DEVELOPER_KEY = "AIzaSyABP2SteqNGg1ucp3jk5EH9qtE7JqP_MKA"  # Replace with your actual API key
+DEVELOPER_KEY = ""  # Replace with your actual API key
 
 youtube = googleapiclient.discovery.build(
     api_service_name, api_version, developerKey=DEVELOPER_KEY
