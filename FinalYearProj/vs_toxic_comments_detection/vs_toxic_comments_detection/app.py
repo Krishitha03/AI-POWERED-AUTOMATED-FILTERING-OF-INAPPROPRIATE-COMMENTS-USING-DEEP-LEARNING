@@ -24,7 +24,7 @@ vectorizer.adapt(df['comment_text'].values)
 # YouTube API
 api_service_name = "youtube"
 api_version = "v3"
-DEVELOPER_KEY = "AIzaSyABP2SteqNGg1ucp3jk5EH9qtE7JqP_MKA"
+DEVELOPER_KEY = ""
 
 youtube = googleapiclient.discovery.build(
     api_service_name, api_version, developerKey=DEVELOPER_KEY)
